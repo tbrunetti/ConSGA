@@ -25,13 +25,14 @@ These five concepts can be applied programmatically to many scenarios in order t
   *  Film, movies, and gaming ([Trescak et al 2012](https://dl.acm.org/doi/abs/10.1145/2407336.2407338?casa_token=HRSGhuKhdp8AAAAA:kJ8C1wpn3-MltHUemdlQHzojyoqLPzeqa_W1wfd6OluF-CG8L_5OOZR5hpq7VqCnzz3Qw-JWfmV8QQ), [Sanjuan et al 2007](https://link.springer.com/chapter/10.1007/978-3-540-71805-5_52))
   
 ## What is the theory behind ConSeGA and how does it work?
-Chromosomes:  A set of strings, ACTG, 15 characters in length derived from the MEF2-ChIP data 
 
-Fitness Function:  The window with the sum of the 10 lowest consecutive entropy values
+ConSeGA is a genetic algorithm approach for detecting consensus sequences in biological data sets.  
 
-Mutation:  String shift amount in alignment
-
-Evolve for Generations:  Elitism for 3000 iterations of the algorithm
+   *  The algorithm defines the set of set of "individuals" or "chromosomes" as: a set of strings of 15 characters in length comprised of only A, T, G, and C.  In the case of the algorithm this was derived from MEF2-ChIP data ().
+   *  The method to determine how "fit" an individual is, or fitness fucntion, is determed by the window of string with a sum of the 10 lowest consecutive entopy values.
+   *  Any string that is not in the most fit windows is subject to random mutation.  A mutation in this case, is a random position shift in the alignment array of +/-3 base pairs.
+   *  Elitism is use to ensure the most fit window of string is automatically incorporated into the next generation of string alignments.
+   *  This process is repeated or "evolved" for 3000 generations.
 
 
 ## Software Dependencies
