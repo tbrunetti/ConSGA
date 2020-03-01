@@ -19,7 +19,9 @@ A genetic algorithm used to identify regions of regularity in the genome of Dros
 
 
 ## Software Dependencies
-
+ConSeGA was written in Python version 2.7.  The following Python dependecies are required:
+* NumPy
+* Matplotlib
 
 ## Results
 
