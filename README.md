@@ -18,9 +18,11 @@ Genetic algorithms (GA) are algorithms in which the basic principles behind Darw
    4.  Those that are the most **_elite_** continue their lineage in the next generation
    5.  This process is repeated for several generations, until the population **_evolves and equilibrium is reached_**
 
-These five concepts can be applied programmatically to many scenarios in order to solve complex problems.  Some examples of where genetic algorithms have been very successful are:
+These five concepts can be applied programmatically to many scenarios in order to solve complex problems.  Some examples of where genetic algorithms have been very successful are (but not limited to):
   *  Software bug detection and repair ([Forrest et al 2009](https://www.cs.cmu.edu/~clegoues/docs/legoues-gecco09.pdf), [Le Goues et al 2013](https://ieeexplore.ieee.org/document/6035728))
-  *  
+  *  Medicine and Biology ([Ghaheri et al 2015](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4678452/), [Hackenberger, 2019](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6509630/), )
+  *  Bioinformatics & data science ([Manning et al 2013](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3813526/), [Yang and Honavar](https://link.springer.com/chapter/10.1007/978-1-4615-5725-8_8))
+  *  Film, movies, and gaming ([Trescak et al 2012](https://dl.acm.org/doi/abs/10.1145/2407336.2407338?casa_token=HRSGhuKhdp8AAAAA:kJ8C1wpn3-MltHUemdlQHzojyoqLPzeqa_W1wfd6OluF-CG8L_5OOZR5hpq7VqCnzz3Qw-JWfmV8QQ), [Sanjuan et al 2007](https://link.springer.com/chapter/10.1007/978-3-540-71805-5_52))
   
 ## What is the theory behind ConSeGA and how does it work?
 Chromosomes:  A set of strings, ACTG, 15 characters in length derived from the MEF2-ChIP data 
