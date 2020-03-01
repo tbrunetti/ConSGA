@@ -1,5 +1,5 @@
 # ConSGA - <ins>Con</ins>sensus <ins>S</ins>eqeunce-based <ins>G</ins>enetic <ins>A</ins>lgorithm
-
+---------------------------------------------------------------------------------------------------
 A genetic algorithm used to identify regions of regularity in the genome of Drosophila melanogaster.  This algorithm has been tested on previously published ChIP data for the transcription factor, Myocyte-enhancer factor 2 (MEF2).
 
 1.  [Introduction](#introduction)
@@ -13,16 +13,16 @@ A genetic algorithm used to identify regions of regularity in the genome of Dros
 5.  [Comments](#comments)
 
 ## Introduction
-----------------
+
 
 ## What is the theory behind ConSGA and how does it work?
-----------------------------------------------------------
+
 
 ## Software Dependencies
--------------------------
+
 
 ## Results
------------
+
 
 ## Comments
-------------
+
