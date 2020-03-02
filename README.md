@@ -34,6 +34,8 @@ ConSeGA is a genetic algorithm approach for detecting consensus sequences in bio
 
    *  The algorithm defines the set of set of "individuals" or "chromosomes" as: a set of strings of 15 characters in length comprised of only A, T, G, and C.  In the case of the algorithm this was derived from MEF2-ChIP data ().
    
+  <p align="center"><img src="https://github.com/tbrunetti/ConSeGA/blob/master/pictures/kmer1.png" width="400"><img src="https://github.com/tbrunetti/ConSeGA/blob/master/pictures/kmer2.png" width="400"></p>
+   
    *  The method to determine how "fit" an individual is, or fitness fucntion, is determed by the window of string with a sum of the 10 lowest consecutive entopy values.
    *  Any string that is not in the most fit windows is subject to random mutation.  A mutation in this case, is a random position shift in the alignment array of +/-3 base pairs.
    *  Elitism is use to ensure the most fit window of string is automatically incorporated into the next generation of string alignments.
