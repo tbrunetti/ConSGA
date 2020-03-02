@@ -44,7 +44,13 @@ ConSeGA is a genetic algorithm approach for detecting consensus sequences in bio
    <p align="center"><img src="https://github.com/tbrunetti/ConSeGA/blob/master/pictures/fitness4.png" width="400"><img src="https://github.com/tbrunetti/ConSeGA/blob/master/pictures/fitness5.png" width="400"></p>
    
    *  The most fit window of strings is automatically excluded from mutation.
+   
+   <p align="center"><img src="https://github.com/tbrunetti/ConSeGA/blob/master/pictures/elitism1.png" width="700"></p>
+   
    *  Any string that is not in the most fit windows is subject to random mutation.  A mutation in this case, is a random position shift in the alignment array of +/-3 base pairs.
+   
+      <p align="center"><img src="https://github.com/tbrunetti/ConSeGA/blob/master/pictures/elitism2.png" width="400"><img src="https://github.com/tbrunetti/ConSeGA/blob/master/pictures/mutation1.png" width="400"></p>
+
    *  Elitism is use to ensure the most fit window of string is automatically incorporated into the next generation of string alignments.
    *  This process is repeated or "evolved" for 3000 generations.
 
