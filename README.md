@@ -61,7 +61,7 @@ ConSeGA was written in Python version 2.7.  The following Python dependecies are
 * Matplotlib
 
 ## Running ConSeGA
-The main python function to run ConSeGA is `tf_genetic_algorithm_multFunc_maskAT.py`.  It requires an input text file of "chromsomes" which are kmer sequences.  There will be a command line option of arguments, however, for the moment this file can be updated within the code at line ----- and then run.
+The main python function to run ConSeGA is `tf_genetic_algorithm_multFunc_maskAT.py`.  It requires an input text file of "chromsomes" which are kmer sequences.  There will be a command line option of arguments, in order to update generations, array size, kmer length, and input file location, however, for the moment this file is hardcoded to mimic what we have validated.  These parameters can be updated within the code at line 23 for your input file and the size of kmers, arrays, and generations can also be updated in the code and then run.
 
 ```
 python2 tf_genetic_algorithm_multFunc_maskAT.py
